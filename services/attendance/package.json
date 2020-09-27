@@ -1,0 +1,24 @@
+{
+  "name": "@recruiterz/attendance",
+  "version": "0.0.0",
+  "description": "알고리즘 스터디 참석 확인 봇",
+  "author": "noahluftyang <euihyun.yang.9x@gmail.com>",
+  "license": "MIT",
+  "main": "app.ts",
+  "scripts": {
+    "build": "tsc",
+    "develop": "nodemon",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@slack/interactive-messages": "1.7.0",
+    "@slack/web-api": "5.12.0",
+    "dotenv": "8.2.0",
+    "node-schedule": "1.3.2"
+  },
+  "devDependencies": {
+    "@types/node-schedule": "1.3.0",
+    "nodemon": "2.0.4",
+    "typescript": "4.0.3"
+  }
+}

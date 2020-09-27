@@ -1,0 +1,17 @@
+{
+  "name": "@recruiterz/slack-bots",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "eslint": "7.9.0",
+    "lerna": "3.22.1",
+    "prettier": "2.1.2"
+  },
+  "private": true,
+  "workspaces": [
+    "services/*"
+  ]
+}

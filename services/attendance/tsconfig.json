@@ -1,0 +1,11 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "build",
+    "allowJs": false,
+    "checkJs": false,
+    "noEmitOnError": false
+  },
+  "exclude": ["node_modules"]
+}
