@@ -36,8 +36,8 @@ async function main() {
 
 main();
 
-// NOTE: 매주 월/수요일 오전 10시에 스터디 참석 확인 메시지를 보낸다.
-scheduleJob('0 10 * * 1,3', async () => {
+// NOTE: 매주 월요일 오전 10시에 스터디 참석 확인 메시지를 보낸다.
+scheduleJob('0 10 * * 1', async () => {
   await client.chat.postMessage({
     channel: '#general',
     text: '오늘 스터디 가능하신분?! :raised_hands:',

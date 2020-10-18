@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "postinstall": "lerna bootstrap"
+    "lint": "lerna run lint"
   },
   "devDependencies": {
     "eslint": "7.9.0",
