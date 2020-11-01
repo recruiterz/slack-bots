@@ -1,11 +1,10 @@
 {
-  "compileOnSave": false,
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
-    "outDir": "build",
-    "allowJs": false,
-    "checkJs": false,
+    "outDir": "./build",
     "noEmitOnError": false
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "include": ["src/**/*"]
 }

@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "bootstrap": "lerna bootstrap",
     "lint": "lerna run lint"
   },
   "devDependencies": {

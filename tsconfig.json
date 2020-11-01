@@ -1,0 +1,9 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowJs": false,
+    "checkJs": false,
+    "strictNullChecks": true
+  },
+  "exclude": ["node_modules"]
+}
